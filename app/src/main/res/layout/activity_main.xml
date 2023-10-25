@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/third"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/ice_blue"
+
+            android:letterSpacing="0.2"
+            android:text="ADDITION"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/subtractButton"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/ice_blue"
+            android:letterSpacing="0.2"
+            android:text="SUBTRACTION"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/multiplyButton"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/ice_blue"
+            android:letterSpacing="0.2"
+            android:text="MULTIPLICATION"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>
